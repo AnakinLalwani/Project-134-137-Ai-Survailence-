@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ai Object Finder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="header btn btn-info">
+            <h3>Ai Object Finder</h3>
+            <h4>If the thing you have inputted is detected by the CocoSSD model, then only will it show up in the webcam</h4>
+        </div>
+        <div>
+            <br>
+            <center>
+                <input class="form" id="inputag" placeholder="Input object here">
+                <button class="btn btn-info" onclick="start()">Submit</button>
+                <br>
+                <button class="btn btn-success" id ="status">Status</button>
+                <h3 class="btn btn-warning" id='objectsdetected'>Object</h3>
+            </center>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

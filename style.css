@@ -1,0 +1,17 @@
+.header {
+    width: 100%;
+}
+.header h4 {
+    color: black;
+}
+body {
+    background-image: url("download.jpg");
+}
+canvas {
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 110px;
+}
+#objectsdetected {
+    margin-top: 0px;
+}
